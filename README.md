@@ -7,3 +7,5 @@
 > cargo run -p tcpclient
 
 ### HTTP
+
+> cd scenario1 && cargo test -p http
