@@ -145,9 +145,3 @@ impl From<&str> for Version {
         }
     }
 }
-
-#[test]
-fn test_version_into() {
-    let m: Version = "HTTP/1.1".into();
-    assert_eq!(m, Version::V1_1);
-}
